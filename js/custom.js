@@ -4,9 +4,12 @@ $(document).ready(function() {
 	$("body").css("display", "none");
 });
 $(function(){
-	$("#header").load("header.html"); 
-	$("#footer").load("footer.html"); 
+	$("#header").load("header.html");
+	$("#footer").load("footer.html");
+	
+	$('[lang="en"]').hide();
 });
+
 $(document).ready(function() {
 	$("body").css("display", "none");
 	$("body").fadeIn(1000);
@@ -16,7 +19,16 @@ $("a.transition").click(function(event){
 	linkLocation = this.href;
 	$("body").fadeOut(1000, redirectPage);
 });
-	 
+
+function selectFrench() {
+	$('[lang="en"]').hide();
+	$('[lang="fr"]').show();
+}
+function selectEnglish() {
+	$('[lang="en"]').show();
+	$('[lang="fr"]').hide();
+}
+	  
 function redirectPage() {
 	window.location = linkLocation;
 }
