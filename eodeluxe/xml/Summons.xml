@@ -1,0 +1,8 @@
+<characters>
+	<summon name="Sandbag" HP="200" ATK="0" DEF="50" SPD="0" type="Bash" ranged="false" src="img/summons/sandbag.png">
+		<ability ID="no_attack"></ability>	<!-- Pacifist -->
+	</summon>
+	<summon name="Wild beast" HP="400" ATK="50" DEF="0" SPD="140" type="Cut" ranged="false" src="img/summons/beast_summon.png">
+		<filter>Melee</filter>
+	</summon>
+</characters>

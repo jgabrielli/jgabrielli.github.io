@@ -1,0 +1,98 @@
+<characters>
+	<class name="Arbalist" HP="1000" ATK="160" DEF="0" SPD="50" type="Stab" ranged="true" src="img/arbalist.png">
+		<filter>Burst</filter>
+		<filter>Ranged</filter>
+		<ability ID="anti_summon">100</ability>	<!-- ATK +100% on summons/minion -->
+		<desc>With a huge crossbow known as a ballista, this guy is not afraid to fire huge bolts, destroying minions and frail summons.</desc>
+	</class>
+	<class name="Assassin" HP="1000" ATK="120" DEF="0" SPD="170" type="Stab" ranged="false" src="img/assassin.png">
+		<filter>Burst</filter>
+		<filter>Melee</filter>
+		<ability ID="finisher">10</ability>	<!-- Finish enemies with HP < 10% -->
+		<desc>A shadowy figure who strikes swiftly, instantly killing badly wounded enemies...</desc>
+	</class>
+	<class name="Buccaneer" HP="1000" ATK="80" DEF="20" SPD="160" type="Bash" ranged="true" src="img/buccaneer.png">
+		<filter>Controller</filter>
+		<filter>Ranged</filter>
+		<ability ID="taunt_strongest"></ability>	<!-- Taunt strongest enemy each turn -->
+		<desc>This charismatic lady uses her wit and charm to get the attention of the most dangerous enemies.</desc>
+	</class>
+	<class name="Arcanist" HP="700" ATK="50" DEF="0" SPD="60" type="Magic" ranged="true" src="img/arcanist.png">
+		<filter>Controller</filter>
+		<filter>Ranged</filter>
+		<ability ID="gravity_circle">50</ability>	<!-- Stun slowest enemies and heal allies -->
+		<desc>A mysterious girl-plant hybrid, capable of manipulating gravity to stun slow enemies and heal allies.</desc>
+	</class>
+	<class name="Fencer" HP="1000" ATK="80" DEF="20" SPD="120" type="Cut" ranged="false" src="img/fencer.png">
+		<filter>DPS</filter>
+		<filter>Melee</filter>
+		<ability ID="counter_attack"></ability>	<!-- Strike back when attacked -->
+		<desc>Using precise swordfighting and outstanding reflexes, fencers always strike back.</desc>
+	</class>
+	<class name="Wizard" HP="1000" ATK="180" DEF="0" SPD="100" type="Cut" ranged="false" src="img/wizard.png">
+		<filter>DPS</filter>
+		<filter>Melee</filter>
+		<ability ID="magic_damage">50</ability>	<!-- 50% of damage dealt are magic -->
+		<desc>By mixing magic and martial arts, the wizard's sword deals both slashing and magic damage.</desc>
+	</class>
+	<class name="Troubadour" HP="1000" ATK="50" DEF="0" SPD="60" type="Bash" ranged="true" src="img/troubadour.png">
+		<filter>Healer</filter>
+		<filter>Ranged</filter>
+		<ability ID="team_heal">150</ability>	<!-- Heal all allies for 15 HP each turn -->
+		<desc>The songs and tales of the troubadour have great psychological effects on their allies, healing their wounds.</desc>
+	</class>
+	<class name="Scientist" HP="1000" ATK="70" DEF="0" SPD="80" type="Bash" ranged="false" src="img/scientist.png">
+		<filter>Healer</filter>
+		<filter>Melee</filter>
+		<ability ID="heal_cleanse">500</ability>	<!-- Heal and cleanse a weakened ally for 50 HP -->
+		<desc>Using top-notch medical gear, the scientist can cure any weird disease, and close the worst wounds.</desc>
+	</class>
+	<class name="Astrologer" HP="800" ATK="100" DEF="0" SPD="80" type="Magic" ranged="true" src="img/astrologer.png">
+		<filter>AOE</filter>
+		<filter>Ranged</filter>
+		<ability ID="team_attack">80</ability>	<!-- Deal 8 damage to all enemies each turn -->
+		<desc>The astrologer's magic is based on precise mathematical knowledge, striking all enemies with falling comets.</desc>
+	</class>
+	<class name="Gladiator" HP="1000" ATK="150" DEF="0" SPD="120" type="Bash" ranged="false" src="img/gladiator.png">
+		<filter>AOE</filter>
+		<filter>Melee</filter>
+		<ability ID="splash">50</ability>	<!-- Strike enemies near first target for 50% damage -->
+		<desc>Most gladiators are very deadly, using wild tactics to attack multiple enemies at once...</desc>
+	</class>
+	<class name="Shaman" HP="800" ATK="50" DEF="0" SPD="50" type="Magic" ranged="true" src="img/shaman.png">
+		<filter>Support</filter>
+		<filter>Ranged</filter>
+		<ability ID="protect_weak">40</ability>	<!-- Grant 5 DEF to weakened ally -->
+		<desc>Young shamans pray for the great Yggdrasil Tree, granting weakened allies better defenses for a turn.</desc>
+	</class>
+	<class name="Sovereign" HP="1000" ATK="80" DEF="10" SPD="60" type="Cut" ranged="false" src="img/sovereign.png">
+		<filter>Support</filter>
+		<filter>Melee</filter>
+		<ability ID="team_total_boost">10</ability>	<!-- Grant 10% more HP/ATK/DEF/SPD to all allies on start -->
+		<desc>The mere presence of noble blood on the battlefield inspires all units, increasing their strength, speed, toughness..</desc>
+	</class>
+	<class name="Android" HP="700" ATK="100" DEF="100" SPD="150" type="Bash" ranged="true" src="img/android.png">
+		<filter>Tank</filter>
+		<filter>Ranged</filter>
+		<ability ID="immune"></ability>	<!-- Immune to status ailments -->
+		<desc>A product of ancient civilizations, possessing strong defenses and an immunity to status ailments.</desc>
+	</class>
+	<class name="Fighter" HP="1000" ATK="120" DEF="0" SPD="100" type="Cut" ranged="false" src="img/fighter.png">
+		<filter>Tank</filter>
+		<filter>Melee</filter>
+		<ability ID="auto_heal">200</ability>	<!-- Gain 20 HP each turn -->
+		<desc>Fighters love to fight, and this one is no exception. Simply being in battle pleases him, curing weak wounds.</desc>
+	</class>
+	<class name="Soldier" HP="1200" ATK="100" DEF="30" SPD="60" type="Bash" ranged="ranged" src="img/artilleryman.png">
+		<filter>Summoner</filter>
+		<filter>Ranged</filter>
+		<ability ID="summon_bunker"></ability>	<!-- Summon 2 tanky sandbags on start -->
+		<desc>With new weapons come new tactics, that soldiers use by staying behind the front line, preparing sandbags to protect allies.</desc>
+	</class>
+	<class name="Wildling" HP="800" ATK="80" DEF="0" SPD="100" type="Stab" ranged="melee" src="img/wildling.png">
+		<filter>Summoner</filter>
+		<filter>Melee</filter>
+		<ability ID="summon_beast">2</ability>	<!-- Summon a beast every 2 turns -->
+		<desc>A young man from the wild, who can call nearby beasts to help from time to time...</desc>
+	</class>
+</characters>

@@ -1,0 +1,38 @@
+<stages>
+
+	<opponents name="Ragelope family" Difficulty="EASY">
+		<opponent name="Ragelope 1" HP="3000" ATK="200" DEF="20" SPD="150" ranged="false" line="1" column="5" src="img/foes/ragelope.png" scale="1.5" type="Stab" foe="Boss"/>
+		<opponent name="Ragelope 2" HP="3000" ATK="200" DEF="20" SPD="150" ranged="false" line="2" column="5" src="img/foes/ragelope.png" scale="1.5" type="Stab" foe="Boss"/>
+		<opponent name="Babylope A" HP="500" ATK="100" DEF="0" SPD="100" ranged="false" line="0" column="6" src="img/foes/ragelope.png" scale="1" type="Bash" foe="Minion"/>
+		<opponent name="Babylope B" HP="500" ATK="100" DEF="0" SPD="100" ranged="false" line="1" column="6" src="img/foes/ragelope.png" scale="1" type="Bash" foe="Minion"/>
+		<opponent name="Babylope C" HP="500" ATK="100" DEF="0" SPD="100" ranged="false" line="2" column="6" src="img/foes/ragelope.png" scale="1" type="Bash" foe="Minion"/>
+		<opponent name="Babylope D" HP="500" ATK="100" DEF="0" SPD="100" ranged="false" line="3" column="6" src="img/foes/ragelope.png" scale="1" type="Bash" foe="Minion"/>
+	</opponents>
+	
+	<opponents name="Army" Difficulty="MEDIUM">
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="0" column="4" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="1" column="4" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="2" column="4" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="3" column="4" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="0" column="5" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="1" column="5" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="2" column="5" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="3" column="5" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="0" column="6" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="1" column="6" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="2" column="6" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="3" column="6" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="0" column="7" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="1" column="7" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="2" column="7" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+		<opponent name="Minion" HP="300" ATK="50" DEF="0" SPD="80" ranged="false" line="3" column="7" src="img/foes/temp.png" scale="0.5" type="Bash" foe="Minion"/>
+	</opponents>
+	
+	<opponents name="Army" Difficulty="HARD">
+		<opponent name="Big guy d" HP="3000" ATK="400" DEF="5" SPD="120" ranged="true" line="0" column="7" src="img/foes/temp.png" scale="1" type="Cut" foe="Boss"/>
+		<opponent name="Big guy c" HP="4000" ATK="300" DEF="10" SPD="100" ranged="true" line="1" column="6" src="img/foes/temp.png" scale="1" type="Cut" foe="Boss"/>
+		<opponent name="Big guy b" HP="5000" ATK="200" DEF="20" SPD="80" ranged="false" line="2" column="5" src="img/foes/temp.png" scale="1" type="Cut" foe="Boss"/>
+		<opponent name="Big guy a" HP="6000" ATK="100" DEF="40" SPD="60" ranged="false" line="3" column="4" src="img/foes/temp.png" scale="1" type="Cut" foe="Boss"/>
+	</opponents>
+	
+</stages>
