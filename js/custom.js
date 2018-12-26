@@ -49,7 +49,7 @@ function checkKey(e) {
 }
 
 function openLeftModal() {
-	if (currentItem <= 1 || !showingModal)
+	if (currentItem <= 0 || !showingModal)
 			return;
 	$("#" + currentItem).modal('hide');
 	currentItem--;
