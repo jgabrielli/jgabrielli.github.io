@@ -1,4 +1,4 @@
-/* Custom scrips for my portfolio - Jonathan Gabrielli 2016-2017*/
+/* Custom scrips for my portfolio - Jonathan Gabrielli 2016-2020*/
 
 $(document).ready(function() {
 	$("body").css("display", "none");
@@ -50,14 +50,14 @@ function checkKey(e) {
 
 function openLeftModal() {
 	if (currentItem <= 0 || !showingModal)
-			return;
+		return;
 	$("#" + currentItem).modal('hide');
 	currentItem--;
 	setTimeout(openModal, 500);
 	return false;
 }	
 function openRightModal() {
-	if (currentItem >= 17 || !showingModal)
+	if (!showingModal)
 		return;
 	$("#" + currentItem).modal('hide');
 	currentItem++;
