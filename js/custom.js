@@ -52,7 +52,7 @@ function openLeftModal() {
 	if (currentItem <= 0 || !showingModal)
 		return;
 	$("#" + currentItem).modal('hide');
-	currentItem--;
+	currentItem++;
 	setTimeout(openModal, 500);
 	return false;
 }	
@@ -60,7 +60,7 @@ function openRightModal() {
 	if (!showingModal)
 		return;
 	$("#" + currentItem).modal('hide');
-	currentItem++;
+	currentItem--;
 	setTimeout(openModal, 500);
 	return false;
 }	
