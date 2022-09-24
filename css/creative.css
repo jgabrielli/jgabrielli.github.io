@@ -195,12 +195,18 @@ section {
 }
 
 #portfolio {
-    background-image: url(../img/header1.png);
+    background-image: url(../img/header0.png);
     background-size: 100% 100%; 
 	margin: 0;
 }
 
-#videogames {
+#pro {
+    background-image: url(../img/header1.png);
+    background-size: 100% 100%; 
+    margin: 0;
+}
+
+#perso {
     background-image: url(../img/header2.png);
     background-size: 100% 100%; 
     margin: 0;
